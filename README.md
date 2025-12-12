@@ -5,3 +5,4 @@ Steps are :
 2. Transcribing mp3 to a python dictionary (which is json-serializable) using openai-whisper-medium model
 3. Extracting useful information from the json dump (calling it a 'chunk') for each file
 4. Reading chunks and converting them into embeddings using ollama bge-m3 model
+4(a) We will post request on 'http://localhost:11434/api/embeddings' and the pull the embeddings from there
