@@ -4,3 +4,4 @@ Steps are :
 1. Converting Videos to mp3 using ffmpeg (source = gyan.dev, for Win11 users ffmpeg/bin must be added to path
 2. Transcribing mp3 to a python dictionary (which is json-serializable) using openai-whisper-medium model
 3. Extracting useful information from the json dump (calling it a 'chunk') for each file
+4. Reading chunks and converting them into embeddings using ollama bge-m3 model
