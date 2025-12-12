@@ -10,7 +10,7 @@ for file in text_files :
         result = json.load(f)
     chunks = []
     for segment in result["segments"] : 
-        chunks.append({"Lecture Number":f"{LecNo}", "start":segment["start"], "end":segment["end"], "text":segment["text"]})
+        chunks.append({"number":f"{LecNo}", "start":segment["start"], "end":segment["end"], "text":segment["text"]})
     chunks_with_metadata = {"chunks":chunks, "full_text":[result["text"]]}
     if(os.path.exists("chunks/")==False) :
         os.makedirs("chunks")
