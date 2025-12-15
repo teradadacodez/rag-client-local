@@ -1,10 +1,10 @@
-# 🚀 rag-client-local
+# rag-client-local
 
 > **A fully local Retrieval-Augmented Generation (RAG) client that lets you ask questions over lecture videos and get answers grounded to exact lecture numbers and timestamps — powered entirely by open-source models.**
 
 ---
 
-## 📌 Motivation
+## Motivation
 
 When learning from long video lectures, it’s difficult to remember **which lecture** and **which exact timestamp** explains a particular concept.
 
@@ -16,7 +16,7 @@ This project solves that problem by:
 
 ---
 
-## 🧠 What This Project Does
+## What This Project Does
 
 `rag-client-local` builds a **local RAG pipeline** over video lectures:
 
@@ -29,7 +29,7 @@ This project solves that problem by:
 
 ---
 
-## 🏗️ Architecture / Workflow
+## Architecture / Workflow
 
 ```
 Lecture Videos
@@ -53,7 +53,7 @@ Final Answer + Lecture References
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Audio Processing:** FFmpeg (via `subprocess`)
@@ -66,7 +66,7 @@ Final Answer + Lecture References
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Fully local pipeline** (no cloud dependency)
 - Converts **lecture videos → searchable text**
@@ -78,7 +78,7 @@ Final Answer + Lecture References
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ```bash
 git clone https://github.com/teradadcodez/rag-client-local.git
@@ -93,7 +93,7 @@ Ensure `ffmpeg` is installed and available in PATH.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Extract audio from lectures
 2. Transcribe using Whisper
@@ -103,7 +103,7 @@ Ensure `ffmpeg` is installed and available in PATH.
 
 ---
 
-## 📊 Future Improvements
+## Future Improvements
 
 - Replace DataFrame with FAISS / Qdrant
 - Add Web UI
@@ -113,14 +113,14 @@ Ensure `ffmpeg` is installed and available in PATH.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Tanmay Jain**  
 GitHub: https://github.com/teradadcodez
 
 ---
 
-## 🙏 Credits & Acknowledgements
+## Credits & Acknowledgements
 
 - **CodeWithHarry** – Inspiration and conceptual guidance for Python, AI, and system design concepts used in this project.  
   YouTube: https://www.youtube.com/@CodeWithHarry  
