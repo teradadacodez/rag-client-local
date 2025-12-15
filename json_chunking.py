@@ -16,4 +16,3 @@ for file in text_files :
         os.makedirs("chunks")
     with open(f"chunks/chunk_of_lecture{LecNo}.json","w",encoding="utf-8") as f :
         json.dump(chunks_with_metadata,f)
-
